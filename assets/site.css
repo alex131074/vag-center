@@ -196,3 +196,6 @@ h1{font-size:clamp(42px,5.2vw,78px)}
 }
 @media (max-width:380px){.top-in{gap:12px}.logo{font-size:18px}.logo-m{width:24px;height:24px;border-width:5px}.top-tel{font-size:13px}.btn{white-space:normal;text-align:center}}
 .bar .btn-g{background:#fff;color:var(--ink);border-color:var(--line)}
+
+/* кнопка «Показать ещё отзывы» и другие скрытые элементы прячутся по-настоящему */
+[hidden]{display:none!important}
